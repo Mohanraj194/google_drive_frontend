@@ -1,0 +1,27 @@
+.file-icon {
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-files {
+  display: flex;
+  flex-wrap: wrap;
+}
+.file-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid #aaa;
+  margin: 0.5rem;
+}
+.file-list {
+  list-style: none;
+}
+.empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
